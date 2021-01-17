@@ -9,6 +9,7 @@ import random
 import numpy as np
 import cv2
 from torch.distributions.uniform import Uniform
+from utils.cutmix import CutMix
 
 
 def icnr(x, scale=2, init=nn.init.kaiming_normal_):
