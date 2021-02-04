@@ -82,6 +82,7 @@ class CCT(BaseModel):
 
                 cutmix_decoder = [CutMixDecoder(upscale, decoder_in_ch, num_classes, cutmix_conf)
             							for _ in range(cutmix_conf['cutmix_masking'])]
+                print(f"Added cutmix decoder with {len(cutmix_decoder)} layers")
 
                 self.aux_decoders = nn.ModuleList([*vat_decoder, *drop_decoder, *cut_decoder,
                                     *context_m_decoder, *object_masking, *feature_drop,
