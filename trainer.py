@@ -75,7 +75,7 @@ class Trainer(BaseTrainer):
                     input_ul_mix = self.mix_image.generate_cutmix_images(input_ul)
                     input_ul = input_ul_mix.cuda(non_blocking=True)
                     del input_ul_mix
-                    print(f"Applied cutmix to encoder")
+                    # print(f"Applied cutmix to encoder")
 
             input_l, target_l = input_l.cuda(non_blocking=True), target_l.cuda(non_blocking=True)
             
