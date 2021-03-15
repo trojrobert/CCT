@@ -3,7 +3,7 @@
     "name": "CCT",
     "experim_name": "CCT",
     "n_gpu": 1,
-    "n_labeled_examples": 1464,
+    "n_labeled_examples": 100,
     "diff_lrs": true,
     "ramp_up": 0.4,
     "unsupervised_w": 30,
@@ -46,8 +46,8 @@
         "uniform_range": 0.3
     },
     "cutmix":{
-        "cutmix_transform": false,
-        "cutmix_masking": 0, 
+        "cutmix_transform": true,
+        "cutmix_masking": 2, 
         "beta": 0.5,
         "cutmix_prob": 0.8
     }, 
