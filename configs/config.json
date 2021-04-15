@@ -46,7 +46,7 @@
     },
     "cutmix":{
         "cutmix_transform": false,
-        "cutmix_masking": 6, 
+        "cutmix_masking": 2, 
         "beta": 0.5,
         "cutmix_prob": 0.8
     }, 
