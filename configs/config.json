@@ -45,7 +45,7 @@
         "uniform_range": 0.3
     },
     "cutmix":{
-        "cutmix_transform": false,
+        "cutmix_transform": true,
         "cutmix_masking": 0, 
         "beta": 0.5,
         "cutmix_prob": 0.8
